@@ -1,5 +1,11 @@
 {
   "name": "node-todo",
+  "bin": {
+    "t": "cli.js"
+  },
+  "files": [
+    "*.js"
+  ],
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
