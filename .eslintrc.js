@@ -10,7 +10,7 @@ module.exports = {
   rules: {
     quotes: ["error", "double"],
     semi: ["error", "always"],
-    "comma-dangle": ["error", "always-multiline"],
+    "comma-dangle": ["error", "only-multiline"],
     "space-before-function-paren": [
       "error",
       { anonymous: "always", named: "never", asyncArrow: "always" },
